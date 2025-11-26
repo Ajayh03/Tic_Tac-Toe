@@ -1,46 +1,21 @@
 # Tic_Tac-Toe
 Tic-Tac-Toe game using C
 
-A simple and interactive Tic-Tac-Toe game written in C, played in the terminal with colored X and O symbols, player names, and clean board updates. This project is great for beginners learning C fundamentals and console-based UI.
+A simple terminal-based Tic-Tac-Toe game written in C, featuring two-player mode, colored X/O symbols, and real-time board updates.
+
+Players enter their names and take turns choosing positions (0–8). The board updates after each move, and the game announces a winner or a draw. This project is a good practice for beginners learning arrays, loops, conditions, and console UI in C.
 
 *Features*
 
--> Two-player mode (Player names supported)
+Two-player gameplay
 
--> Colored symbols
+Colored X (red) and O (blue)
 
-X → Red
-O → Blue
+Valid move checking
 
--> Move validation (Prevents selecting already-filled boxes)
+Win and draw detection
 
--> Win detection for all 8 winning combinations
+Clean board refresh using system("clear")
 
--> Board refresh animation using system("clear")
 
--> Draw detection when all 9 cells are filled
 
--> Clean function structure
-
--> printboard()
-
--> printsign()
-
--> wincheck()
-
-*How It Works*
-
-The game begins by asking both players to enter their names.
-
-Players take turns entering a position (0–8).
-
-The selected position is marked with:
-
-X for Player 1
-O for Player 2
-
-The game ends when:
-
-A player wins, or
-
-All positions are filled → Match Draw
