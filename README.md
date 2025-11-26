@@ -39,8 +39,6 @@ The selected position is marked with:
 X for Player 1
 O for Player 2
 
-After every move, the board is refreshed and displayed with colors.
-
 The game ends when:
 
 A player wins, or
