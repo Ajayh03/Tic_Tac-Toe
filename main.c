@@ -30,7 +30,6 @@ int main()
     printboard(plr1,plr2);
     while(player != 10)
     {
-        //printboard(plr1,plr2);
         int pos;
         skip:
         printf("Enter the position: ");
@@ -166,3 +165,4 @@ int wincheck()
     else
         return 0;                                
 }
+
